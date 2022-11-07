@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PruebasTecnicas">
         <activity
+            android:name=".MensajesImprimir"
+            android:exported="false" />
+        <activity
+            android:name=".Sumar"
+            android:exported="false" />
+        <activity
+            android:name=".ImprimirUnSaludo"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
