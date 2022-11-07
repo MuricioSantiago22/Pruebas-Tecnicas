@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PruebasTecnicas">
         <activity
+            android:name=".NullSafety"
+            android:exported="false" />
+        <activity
+            android:name=".AsignarUnaVar"
+            android:exported="false" />
+        <activity
+            android:name=".TipoDeDatoEnUnaVar"
+            android:exported="false" />
+        <activity
             android:name=".MensajesImprimir"
             android:exported="false" />
         <activity

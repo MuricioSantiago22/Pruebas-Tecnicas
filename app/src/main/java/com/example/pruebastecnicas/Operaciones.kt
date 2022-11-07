@@ -28,3 +28,25 @@ fun main(){
 
     println("El resultado de multiplicar 3 por -5 es igual a ${multiplicar(3.0, -5.0)}")
 }
+
+//Suma de Valores (vararg es para definir una cantidad variable de argumentos)
+
+fun sumarValores(vararg valores:Double):Double{
+    var suma = 0.0
+    for (v in valores){
+        suma += v
+    }
+    return suma
+}
+
+fun main(){
+    println(sumarValores(1.0,2.0,3.0,4.0,5.0))
+
+    println()
+
+    println(sumarValores(1.0,2.0,3.0))
+
+    println()
+
+    println(sumarValores(1.0))
+}*/
