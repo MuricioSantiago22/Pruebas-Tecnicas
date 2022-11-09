@@ -4,10 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_asignar_una_var.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_entidad_del_mundo_real.xml" value="0.14175724637681159" />
         <entry key="app/src/main/res/layout/activity_imprimir_un_saludo.xml" value="0.14175724637681159" />
         <entry key="app/src/main/res/layout/activity_mensajes_imprimir.xml" value="0.10208333333333333" />
+        <entry key="app/src/main/res/layout/activity_null_safety.xml" value="0.14175724637681159" />
         <entry key="app/src/main/res/layout/activity_sumar.xml" value="0.14175724637681159" />
         <entry key="app/src/main/res/layout/activity_tipo_de_dato_en_una_var.xml" value="0.10208333333333333" />
+        <entry key="app/src/main/res/layout/activity_to_string.xml" value="0.14175724637681159" />
       </map>
     </option>
   </component>

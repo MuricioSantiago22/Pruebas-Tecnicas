@@ -20,7 +20,7 @@ Los id que esten en la lista local pero no en la lista del servidor deberán dev
 
 Los ids que se encuentran iguales no deben regresar en el objeto HashMap
 
-*/
+
 
 
 
@@ -89,4 +89,4 @@ class MainActivity : AppCompatActivity() {
     }
 
     data class ObjectUpdate(var id: String, var date: Date)
-}
+}*/

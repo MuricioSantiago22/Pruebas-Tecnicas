@@ -1,6 +1,6 @@
 package com.example.pruebastecnicas
 
-fun main(){
+/*fun main(){
     val PI: Double = 3.141592
 
     val E = 2.7172   //Euler
@@ -21,4 +21,4 @@ fun main(){
     println(angela.id)
 }
 
-class Contacto(val id : Int, val email: String)
+class Contacto(val id : Int, val email: String)*/

@@ -1,5 +1,5 @@
 package com.example.pruebastecnicas
-fun imprimirMensajes(vararg mensajes: String){
+/*fun imprimirMensajes(vararg mensajes: String){
     for (m in mensajes){
         println(m)
     }
@@ -10,4 +10,4 @@ fun main(){
     println()
 
     imprimirMensajes("Hola")
-}
+}*/

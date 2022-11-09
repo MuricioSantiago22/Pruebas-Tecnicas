@@ -1,6 +1,6 @@
 package com.example.pruebastecnicas
 
-fun main() {
+/*fun main() {
     val numero:Int
 
     val nombre = "Miguel"
@@ -12,4 +12,4 @@ fun main() {
     }
 
     println("El valor de la variable numero es $numero")
-}
+}*/
