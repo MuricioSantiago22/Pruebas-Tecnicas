@@ -74,4 +74,52 @@ fun main() {
     val bicicletaRoja: Vehiculo = Bicicleta()
 
     bicicletaRoja.iniciar()
+}
+
+
+//Jerarquia de Herencia
+
+
+ open class Vehiculo(val color: String){
+     fun iniciar(){
+         println("El vehiculo se ha iniciado.")
+     }
+ }
+
+ class Bicicleta :Vehiculo("Negro"){
+     fun parquear(){
+         println("la bicicleta se esta parqueando.")
+
+     }
+ }
+
+fun main() {
+    val bicicletaNegra: Vehiculo = Bicicleta()
+    bicicletaNegra.iniciar()
+    println()
+
+    (bicicletaNegra as Bicicleta).parquear()
+
+    println()
+
+    println(bicicletaNegra.color)
+}
+
+//Pasar argumento al constructor de una superclase de una jerarquia de herencia.
+
+open class Vehiculo(val identificador: String, val color :String, val costo : Double ){
+    fun iniciar(){
+        println("Identificador: $identificador-Color: $color-Costo: $costo")
+    }
+}
+
+class Bicicleta(  identificador: String, color: String, costo: Double, val esMontañera: Boolean): Vehiculo(identificador,color, costo)
+
+fun main() {
+    val bicicletaMontañera: Bicicleta = Bicicleta("1223456", "Negra", 100000.0, true)
+
+    println(bicicletaMontañera.identificador)
+    println(bicicletaMontañera.color)
+    println(bicicletaMontañera.costo)
+    println(bicicletaMontañera.esMontañera)
 }*/

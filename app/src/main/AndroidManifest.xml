@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PruebasTecnicas">
         <activity
+            android:name=".nowInstant"
+            android:exported="false" />
+        <activity
+            android:name=".For"
+            android:exported="false" />
+        <activity
+            android:name=".When"
+            android:exported="false" />
+        <activity
             android:name=".NumerosPrimos"
             android:exported="false" />
         <activity
