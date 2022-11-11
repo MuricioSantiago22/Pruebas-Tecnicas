@@ -6,25 +6,27 @@ fun compareTriplets(a: Array<Int>, b: Array<Int>): Array<Int> {
 
     val ArrSize = a.size - 1
 
-    for (item in 0..ArrSize){
+    for (item in 0..ArrSize) {
 
-        if(a[item] > b[item])
+        if (a[item] > b[item])
             scoreA += 1
 
-        if(a[item] < b[item])
+        if (a[item] < b[item])
             scoreB += 1
     }
 
     return arrayOf(scoreA, scoreB)
 }
 
+
 fun main(args: Array<String>) {
 
-    val a = readLine()!!.trimEnd().split(" ").map{ it.toInt() }.toTypedArray()
+    val a = readLine()!!.trimEnd().split(" ").map { it.toInt() }.toTypedArray()
 
-    val b = readLine()!!.trimEnd().split(" ").map{ it.toInt() }.toTypedArray()
+    val b = readLine()!!.trimEnd().split(" ").map { it.toInt() }.toTypedArray()
 
     val result = compareTriplets(a, b)
 
     println(result.toString())
 }
+
