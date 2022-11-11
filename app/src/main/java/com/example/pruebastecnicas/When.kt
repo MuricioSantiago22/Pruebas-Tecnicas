@@ -18,7 +18,7 @@ fun main(){
     seleccionCaso(123456L)
     seleccionCaso(1.0)
     seleccionCaso(MiClase())
-}*/
+}
 
 //Crear una expresión con la sentencia when para retornar un valor desde una función.
 fun asignar(objeto: Any): Any{
@@ -42,7 +42,7 @@ fun main() {
 
     println(asignar(MiClase())) // false
 
-}
+}*/
 
 
 
